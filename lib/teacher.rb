@@ -5,7 +5,7 @@ class Teacher < User
   
   def teach
     binding.pry
-    KNOWLEDGE.sample(1)
+    KNOWLEDGE.sample(1).join
   end
   
 end
